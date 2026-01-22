@@ -1,0 +1,15 @@
+D:\.NET\Class\activity1\bin\Debug\net10.0\activity1.exe
+D:\.NET\Class\activity1\bin\Debug\net10.0\activity1.deps.json
+D:\.NET\Class\activity1\bin\Debug\net10.0\activity1.runtimeconfig.json
+D:\.NET\Class\activity1\bin\Debug\net10.0\activity1.dll
+D:\.NET\Class\activity1\bin\Debug\net10.0\activity1.pdb
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.AssemblyInfoInputs.cache
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.AssemblyInfo.cs
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.csproj.CoreCompileInputs.cache
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.sourcelink.json
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.dll
+D:\.NET\Class\activity1\obj\Debug\net10.0\refint\activity1.dll
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.pdb
+D:\.NET\Class\activity1\obj\Debug\net10.0\activity1.genruntimeconfig.cache
+D:\.NET\Class\activity1\obj\Debug\net10.0\ref\activity1.dll
