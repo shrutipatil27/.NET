@@ -1,0 +1,15 @@
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.AssemblyInfoInputs.cache
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.AssemblyInfo.cs
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.csproj.CoreCompileInputs.cache
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.sourcelink.json
+D:\.NET\Experiment\prac1st\bin\Debug\net10.0\prac1st.exe
+D:\.NET\Experiment\prac1st\bin\Debug\net10.0\prac1st.deps.json
+D:\.NET\Experiment\prac1st\bin\Debug\net10.0\prac1st.runtimeconfig.json
+D:\.NET\Experiment\prac1st\bin\Debug\net10.0\prac1st.dll
+D:\.NET\Experiment\prac1st\bin\Debug\net10.0\prac1st.pdb
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.dll
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\refint\prac1st.dll
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.pdb
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\prac1st.genruntimeconfig.cache
+D:\.NET\Experiment\prac1st\obj\Debug\net10.0\ref\prac1st.dll
