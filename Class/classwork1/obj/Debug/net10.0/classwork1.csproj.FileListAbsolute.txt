@@ -1,0 +1,5 @@
+D:\.NET\Class\classwork1\obj\Debug\net10.0\classwork1.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Class\classwork1\obj\Debug\net10.0\classwork1.AssemblyInfoInputs.cache
+D:\.NET\Class\classwork1\obj\Debug\net10.0\classwork1.AssemblyInfo.cs
+D:\.NET\Class\classwork1\obj\Debug\net10.0\classwork1.csproj.CoreCompileInputs.cache
+D:\.NET\Class\classwork1\obj\Debug\net10.0\classwork1.sourcelink.json
