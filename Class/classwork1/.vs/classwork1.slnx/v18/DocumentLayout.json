@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\.NET\\Class\\classwork1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9D37E02-6D34-4716-9277-7E057F1AB19B}|classwork1.csproj|d:\\.net\\class\\classwork1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9D37E02-6D34-4716-9277-7E057F1AB19B}|classwork1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D742944A-7D43-844C-65AD-3DACBFD63E31}|classwork1.csproj|d:\\.net\\class\\classwork1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D742944A-7D43-844C-65AD-3DACBFD63E31}|classwork1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.NET\\Class\\classwork1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA7wGsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T10:22:42.502Z",
               "EditorCaption": ""

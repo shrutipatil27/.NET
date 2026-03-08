@@ -117,3 +117,148 @@ class Ostrich : IBird
 {
 
 }
+
+
+//I – Interface Segregation Principle (ISP)-->  “A class should not be forced to implement interfaces it does not use.”
+//Instead of one big interface, create multiple small, specific interfaces.
+
+//Bad example
+interface IWorker
+{
+    void Work();
+    void Eat();
+}
+
+class HumanWorker : IWorker
+{
+    public void Work()
+    {
+        // human working
+    }
+
+    public void Eat()
+    {
+        // human eating
+    }
+}
+
+class RobotWorker : IWorker
+{
+    public void Work()
+    {
+        // robot working
+    }
+
+    public void Eat()
+    {
+        // ❌ robot does not eat
+        throw new NotImplementedException();
+    }
+}
+//Robot is forced to implement Eat() which it does not need.
+
+//Good example
+interface IWork
+{
+    void Work();
+}
+
+interface IEat
+{
+    void Eat();
+}
+
+class HumanWorker1 : IWork, IEat
+{
+    public void Work()
+    {
+        // human working
+    }
+
+    public void Eat()
+    {
+        // human eating
+    }
+}
+
+class RobotWorker1 : IWork
+{
+    public void Work()
+    {
+        // robot working
+    }
+}
+//Each class implements only what it needs, Easy to maintain and extend
+
+//D – Dependency Inversion Principle (DIP)--> High-level modules should not depend on low-level modules.
+//Both should depend on abstractions (interfaces)
+
+//Bad example
+class MySQLDatabase
+{
+    public void SaveData()
+    {
+        // save data in MySQL
+    }
+}
+
+class UserService
+{
+    MySQLDatabase db = new MySQLDatabase();
+
+    public void SaveUser()
+    {
+        db.SaveData();
+    }
+}
+//UserService is tightly coupled to MySQLDatabase,If database changes → code must be modified
+
+//Good example
+interface IDatabase
+{
+    void SaveData();
+}
+
+class MySQLDatabase1 : IDatabase
+{
+    public void SaveData()
+    {
+        // save data in MySQL
+    }
+}
+
+class MongoDatabase : IDatabase
+{
+    public void SaveData()
+    {
+        // save data in MongoDB
+    }
+}
+
+class UserService1
+{
+    private IDatabase db;
+
+    public UserService1(IDatabase database)
+    {
+        db = database;
+    }
+
+    public void SaveUser()
+    {
+        db.SaveData();
+    }
+}
+//UserService depends on interface, not concrete class,Easy to switch DB without changing business logic
+
+//SOLID – One-Line Revision (Very Useful for MCQs)
+
+//S (SRP) → One class = One responsibility
+
+//O(OCP) → Open for extension, closed for modification
+
+//L (LSP) → Child can replace parent without breaking code
+
+//I (ISP) → Many small interfaces > one large interface
+
+//D(DIP) → Depend on abstractions, not concrete classes

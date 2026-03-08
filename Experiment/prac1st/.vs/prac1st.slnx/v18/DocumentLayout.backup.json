@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\.NET\\Experiment\\prac1st\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DBACC64-BBCA-43FF-9123-9E3375EFB7E3}|prac1st.csproj|d:\\.net\\experiment\\prac1st\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DBACC64-BBCA-43FF-9123-9E3375EFB7E3}|prac1st.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA30391-1C6E-B4B9-D427-683C1B7734FC}|prac1st.csproj|d:\\.net\\experiment\\prac1st\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA30391-1C6E-B4B9-D427-683C1B7734FC}|prac1st.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.NET\\Experiment\\prac1st\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAAKgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAQwBkCAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T10:26:12.377Z",
               "EditorCaption": ""
