@@ -1,0 +1,15 @@
+D:\Dotnet\Lab\Exp05\Synchronous_Program\bin\Debug\net8.0\Synchronous_Program.exe
+D:\Dotnet\Lab\Exp05\Synchronous_Program\bin\Debug\net8.0\Synchronous_Program.deps.json
+D:\Dotnet\Lab\Exp05\Synchronous_Program\bin\Debug\net8.0\Synchronous_Program.runtimeconfig.json
+D:\Dotnet\Lab\Exp05\Synchronous_Program\bin\Debug\net8.0\Synchronous_Program.dll
+D:\Dotnet\Lab\Exp05\Synchronous_Program\bin\Debug\net8.0\Synchronous_Program.pdb
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.AssemblyInfoInputs.cache
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.AssemblyInfo.cs
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.csproj.CoreCompileInputs.cache
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.sourcelink.json
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.dll
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\refint\Synchronous_Program.dll
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.pdb
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\Synchronous_Program.genruntimeconfig.cache
+D:\Dotnet\Lab\Exp05\Synchronous_Program\obj\Debug\net8.0\ref\Synchronous_Program.dll

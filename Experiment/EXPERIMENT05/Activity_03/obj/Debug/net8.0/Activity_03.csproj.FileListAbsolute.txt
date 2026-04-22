@@ -1,0 +1,15 @@
+D:\Dotnet\Lab\Exp05\Activity_03\bin\Debug\net8.0\Activity_03.exe
+D:\Dotnet\Lab\Exp05\Activity_03\bin\Debug\net8.0\Activity_03.deps.json
+D:\Dotnet\Lab\Exp05\Activity_03\bin\Debug\net8.0\Activity_03.runtimeconfig.json
+D:\Dotnet\Lab\Exp05\Activity_03\bin\Debug\net8.0\Activity_03.dll
+D:\Dotnet\Lab\Exp05\Activity_03\bin\Debug\net8.0\Activity_03.pdb
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.AssemblyInfoInputs.cache
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.AssemblyInfo.cs
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.csproj.CoreCompileInputs.cache
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.sourcelink.json
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.dll
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\refint\Activity_03.dll
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.pdb
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\Activity_03.genruntimeconfig.cache
+D:\Dotnet\Lab\Exp05\Activity_03\obj\Debug\net8.0\ref\Activity_03.dll

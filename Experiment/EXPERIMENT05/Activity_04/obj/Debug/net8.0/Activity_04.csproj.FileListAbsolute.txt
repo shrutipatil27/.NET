@@ -1,0 +1,15 @@
+D:\Dotnet\Lab\Exp05\Activity_04\bin\Debug\net8.0\Activity_04.exe
+D:\Dotnet\Lab\Exp05\Activity_04\bin\Debug\net8.0\Activity_04.deps.json
+D:\Dotnet\Lab\Exp05\Activity_04\bin\Debug\net8.0\Activity_04.runtimeconfig.json
+D:\Dotnet\Lab\Exp05\Activity_04\bin\Debug\net8.0\Activity_04.dll
+D:\Dotnet\Lab\Exp05\Activity_04\bin\Debug\net8.0\Activity_04.pdb
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.AssemblyInfoInputs.cache
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.AssemblyInfo.cs
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.csproj.CoreCompileInputs.cache
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.sourcelink.json
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.dll
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\refint\Activity_04.dll
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.pdb
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\Activity_04.genruntimeconfig.cache
+D:\Dotnet\Lab\Exp05\Activity_04\obj\Debug\net8.0\ref\Activity_04.dll

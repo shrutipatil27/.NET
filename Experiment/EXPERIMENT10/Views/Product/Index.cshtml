@@ -1,0 +1,119 @@
+@model CachingLoggingDemo.Models.CacheResponseViewModel
+@{
+    ViewData["Title"] = "Products — Caching Demo";
+}
+
+<!-- Status Banner -->
+<div class="glass-card mb-4" style="border-left: 4px solid @(Model.IsFromCache ? "var(--success)" : "var(--primary)");">
+    <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div>
+            <h4 style="font-weight:700; margin-bottom:4px;">📦 Product Catalog</h4>
+            <p style="color:var(--text-secondary); margin:0; font-size:0.9rem;">@Model.Message</p>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+            @if (Model.IsFromCache)
+            {
+                <span class="badge-glow badge-cache">✅ CACHE HIT</span>
+            }
+            else
+            {
+                <span class="badge-glow badge-source">🔄 FROM SOURCE</span>
+            }
+            <div class="text-end" style="min-width:140px;">
+                <div style="font-size:1.6rem; font-weight:700; color: @(Model.IsFromCache ? "var(--success)" : "var(--primary)");">
+                    @Model.ElapsedMilliseconds ms
+                </div>
+                <div style="font-size:0.75rem; color:var(--text-secondary);">Response Time</div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-2" style="font-size:0.8rem; color:var(--text-secondary);">
+        🕐 Fetched at: <strong>@Model.FetchedAt</strong>
+    </div>
+</div>
+
+<!-- Action Buttons -->
+<div class="d-flex gap-3 mb-4">
+    <a asp-controller="Product" asp-action="Index" class="btn btn-primary-custom">
+        🔄 Refresh (Test Cache)
+    </a>
+    <button id="btnClearCache" class="btn btn-danger-custom" onclick="clearCache()">
+        🗑️ Clear Cache
+    </button>
+</div>
+
+<!-- Product Table -->
+<div class="glass-card">
+    <table class="table table-dark table-hover mb-0" style="background:transparent;">
+        <thead>
+            <tr style="border-bottom: 2px solid var(--border);">
+                <th style="color:var(--text-secondary); font-weight:600;">ID</th>
+                <th style="color:var(--text-secondary); font-weight:600;">Product Name</th>
+                <th style="color:var(--text-secondary); font-weight:600;">Category</th>
+                <th style="color:var(--text-secondary); font-weight:600; text-align:right;">Price</th>
+                <th style="color:var(--text-secondary); font-weight:600; text-align:right;">Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr style="border-bottom: 1px solid var(--border); transition: background 0.2s;">
+                    <td style="font-weight:600; color:var(--accent);">@product.Id</td>
+                    <td style="font-weight:500;">@product.Name</td>
+                    <td>
+                        <span style="background:rgba(99,102,241,0.12); color:var(--primary); padding:3px 10px; border-radius:6px; font-size:0.8rem; font-weight:500;">
+                            @product.Category
+                        </span>
+                    </td>
+                    <td style="text-align:right; font-weight:600;">$@product.Price.ToString("N2")</td>
+                    <td style="text-align:right;">
+                        <span style="color: @(product.Stock < 70 ? "var(--warning)" : "var(--success)");">
+                            @product.Stock units
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Explanation Card -->
+<div class="glass-card mt-4">
+    <h5 style="font-weight:600;">💡 What to observe</h5>
+    <div class="row mt-2">
+        <div class="col-md-6">
+            <p style="color:var(--text-secondary); font-size:0.9rem;">
+                <strong style="color:var(--warning);">1st click</strong> — "Refresh" takes ~2000ms (data fetched from source).<br/>
+                <strong style="color:var(--success);">2nd+ clicks</strong> — Response drops to 0-1ms (served from cache).
+            </p>
+        </div>
+        <div class="col-md-6">
+            <p style="color:var(--text-secondary); font-size:0.9rem;">
+                <strong style="color:var(--danger);">"Clear Cache"</strong> — Removes cached data. The next Refresh will take ~2000ms again.<br/>
+                <strong style="color:var(--accent);">Console logs</strong> — Watch the terminal for timestamped HIT/MISS messages.
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    // Calls the API endpoint to clear the in-memory cache
+    async function clearCache() {
+        const btn = document.getElementById('btnClearCache');
+        btn.disabled = true;
+        btn.textContent = '⏳ Clearing...';
+        try {
+            const res = await fetch('/api/products/clear-cache', { method: 'POST' });
+            const data = await res.json();
+            alert(data.message);
+            location.reload(); // Reload to demonstrate the slower fetch
+        } catch (e) {
+            alert('Error clearing cache: ' + e.message);
+        } finally {
+            btn.disabled = false;
+            btn.textContent = '🗑️ Clear Cache';
+        }
+    }
+</script>
+}

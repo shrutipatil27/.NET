@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet\\Lab\\Exp05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4865EB15-2053-8BC2-E242-1073E980A314}|Activity_04\\Activity_04.csproj|d:\\dotnet\\lab\\exp05\\activity_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865EB15-2053-8BC2-E242-1073E980A314}|Activity_04\\Activity_04.csproj|solutionrelative:activity_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15A1EDD-A965-B0E1-9320-E957BD938A03}|Activity_03\\Activity_03.csproj|d:\\dotnet\\lab\\exp05\\activity_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15A1EDD-A965-B0E1-9320-E957BD938A03}|Activity_03\\Activity_03.csproj|solutionrelative:activity_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C36C025-BB2B-C40C-6F8B-FB77C5BF0144}|ConvertToAsync\\ConvertToAsync.csproj|d:\\dotnet\\lab\\exp05\\converttoasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C36C025-BB2B-C40C-6F8B-FB77C5BF0144}|ConvertToAsync\\ConvertToAsync.csproj|solutionrelative:converttoasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974E741B-9D24-5975-C3A4-125231036323}|Synchronous_Program\\Synchronous_Program.csproj|d:\\dotnet\\lab\\exp05\\synchronous_program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{974E741B-9D24-5975-C3A4-125231036323}|Synchronous_Program\\Synchronous_Program.csproj|solutionrelative:synchronous_program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\Lab\\Exp05\\Activity_04\\Program.cs",
+              "RelativeDocumentMoniker": "Activity_04\\Program.cs",
+              "ToolTip": "D:\\Dotnet\\Lab\\Exp05\\Activity_04\\Program.cs",
+              "RelativeToolTip": "Activity_04\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:40:58.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\Lab\\Exp05\\Activity_03\\Program.cs",
+              "RelativeDocumentMoniker": "Activity_03\\Program.cs",
+              "ToolTip": "D:\\Dotnet\\Lab\\Exp05\\Activity_03\\Program.cs",
+              "RelativeToolTip": "Activity_03\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:35:22.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\Lab\\Exp05\\ConvertToAsync\\Program.cs",
+              "RelativeDocumentMoniker": "ConvertToAsync\\Program.cs",
+              "ToolTip": "D:\\Dotnet\\Lab\\Exp05\\ConvertToAsync\\Program.cs",
+              "RelativeToolTip": "ConvertToAsync\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:32:35.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\Lab\\Exp05\\Synchronous_Program\\Program.cs",
+              "RelativeDocumentMoniker": "Synchronous_Program\\Program.cs",
+              "ToolTip": "D:\\Dotnet\\Lab\\Exp05\\Synchronous_Program\\Program.cs",
+              "RelativeToolTip": "Synchronous_Program\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:30:00.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

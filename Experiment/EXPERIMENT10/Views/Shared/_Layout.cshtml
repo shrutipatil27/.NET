@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CachingLoggingDemo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CachingLoggingDemo.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --accent: #06b6d4;
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --bg-card-hover: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --border: #334155;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+        * { font-family: 'Inter', sans-serif; }
+        body { background: var(--bg-dark); color: var(--text-primary); }
+
+        /* ── Navbar ────────────────────────────────────────── */
+        .navbar-custom {
+            background: rgba(15, 23, 42, 0.85) !important;
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75rem 0;
+        }
+        .navbar-custom .navbar-brand {
+            font-weight: 700; font-size: 1.25rem;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .navbar-custom .nav-link {
+            color: var(--text-secondary) !important; font-weight: 500;
+            transition: color 0.2s;
+        }
+        .navbar-custom .nav-link:hover,
+        .navbar-custom .nav-link.active {
+            color: var(--text-primary) !important;
+        }
+
+        /* ── Cards ─────────────────────────────────────────── */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(99, 102, 241, 0.15);
+        }
+
+        /* ── Badge pill ────────────────────────────────────── */
+        .badge-glow {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 14px; border-radius: 999px;
+            font-size: 0.8rem; font-weight: 600;
+        }
+        .badge-cache { background: rgba(34,197,94,0.15); color: var(--success); }
+        .badge-source { background: rgba(99,102,241,0.15); color: var(--primary); }
+
+        /* ── Footer ────────────────────────────────────────── */
+        footer {
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* ── Misc ──────────────────────────────────────────── */
+        .btn-primary-custom {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border: none; color: #fff; font-weight: 600;
+            padding: 10px 24px; border-radius: 10px;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+        .btn-primary-custom:hover { opacity: 0.9; transform: translateY(-1px); color: #fff; }
+        .btn-danger-custom {
+            background: rgba(239,68,68,0.15); color: var(--danger);
+            border: 1px solid var(--danger); font-weight: 600;
+            padding: 10px 24px; border-radius: 10px;
+            transition: background 0.2s;
+        }
+        .btn-danger-custom:hover { background: var(--danger); color: #fff; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">⚡ CachingLoggingDemo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">🏠 Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Product" asp-action="Index">📦 Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/swagger" target="_blank">📄 Swagger API</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="py-3 mt-5">
+        <div class="container text-center">
+            &copy; 2026 - CachingLoggingDemo &middot;
+            ASP.NET Core MVC — Logging &amp; In-Memory Caching Demo
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

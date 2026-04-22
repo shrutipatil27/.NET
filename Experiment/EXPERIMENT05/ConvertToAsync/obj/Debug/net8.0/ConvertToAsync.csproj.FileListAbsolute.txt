@@ -1,0 +1,15 @@
+D:\Dotnet\Lab\Exp05\ConvertToAsync\bin\Debug\net8.0\ConvertToAsync.exe
+D:\Dotnet\Lab\Exp05\ConvertToAsync\bin\Debug\net8.0\ConvertToAsync.deps.json
+D:\Dotnet\Lab\Exp05\ConvertToAsync\bin\Debug\net8.0\ConvertToAsync.runtimeconfig.json
+D:\Dotnet\Lab\Exp05\ConvertToAsync\bin\Debug\net8.0\ConvertToAsync.dll
+D:\Dotnet\Lab\Exp05\ConvertToAsync\bin\Debug\net8.0\ConvertToAsync.pdb
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.AssemblyInfoInputs.cache
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.AssemblyInfo.cs
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.csproj.CoreCompileInputs.cache
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.sourcelink.json
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.dll
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\refint\ConvertToAsync.dll
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.pdb
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ConvertToAsync.genruntimeconfig.cache
+D:\Dotnet\Lab\Exp05\ConvertToAsync\obj\Debug\net8.0\ref\ConvertToAsync.dll

@@ -1,0 +1,6 @@
+D:\.NET\Experiment\Exp08\StudentCRUDApp\obj\Debug\net10.0\StudentCRUDApp.csproj.AssemblyReference.cache
+D:\.NET\Experiment\Exp08\StudentCRUDApp\obj\Debug\net10.0\StudentCRUDApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Experiment\Exp08\StudentCRUDApp\obj\Debug\net10.0\StudentCRUDApp.AssemblyInfoInputs.cache
+D:\.NET\Experiment\Exp08\StudentCRUDApp\obj\Debug\net10.0\StudentCRUDApp.AssemblyInfo.cs
+D:\.NET\Experiment\Exp08\StudentCRUDApp\obj\Debug\net10.0\StudentCRUDApp.csproj.CoreCompileInputs.cache
+D:\.NET\Experiment\Exp08\StudentCRUDApp\obj\Debug\net10.0\StudentCRUDApp.sourcelink.json
